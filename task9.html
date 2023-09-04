@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<head>
+    <style>
+        #mySidenav a {
+  position: absolute; 
+  left: -80px; 
+  transition: 0.3s; 
+  padding: 15px; 
+  width: 100px;
+  text-decoration: none; 
+  font-size: 20px; 
+  color: white; 
+  border-radius: 0 5px 5px 0; 
+}
+
+#mySidenav a:hover {
+  left: 0; /* On mouse-over, make the elements appear as they should */
+}
+
+/* The about link: 20px from the top with a green background */
+#about {
+  top: 20px;
+  background-color: #04AA6D;
+}
+
+#blog {
+  top: 80px;
+  background-color: #2196F3; /* Blue */
+}
+
+#projects {
+  top: 140px;
+  background-color: #f44336; /* Red */
+}
+
+#contact {
+  top: 200px;
+  background-color: #555 /* Light Black */
+}
+label.hi{
+    font-size: 30px;
+    padding-top:80px;
+    
+}
+label{
+    font-size:20px;
+    padding-top: 60px;
+    padding-left: 80px;
+}
+    </style>
+</head>
+<body>
+<div id="mySidenav" class="sidenav">
+    <label class="hi"><b>Hoverable SideNav Buttons</b></label><br><br><br>
+
+    <label>Hover over the buttons in the left sidenavigation to open them</label>
+    <a href="#" id="about">Home</a>
+    <a href="#" id="blog">Java</a>
+    <a href="#" id="projects">CSS</a>
+    <a href="#" id="contact">HTML</a>
+  </div>
+</body>

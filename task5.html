@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<head>
+    <title>Task-5_21BCE9922</title>
+    <style>
+        #hi{
+            text-align: center;
+        }
+        .gender{
+            text-align: left;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 align="center" style="color:blue">Registration Form</h1>
+    <form align="center">
+        <table border="1" cellspacing="0" width="30%" align="center">
+            <tr>
+                <td id="hi">First Name</td>
+                <td> </td>
+            </tr>
+            <tr>
+                <td id="hi">Last Name</td>
+                <td> </td>
+            </tr>
+            <tr>
+                <td id="hi">Email </td>
+                <td> </td>
+            </tr>
+            <tr>
+                <td id="hi">Re-Enter Password </td>
+                <td> </td>
+            </tr>
+            <tr >
+                <td rowspan="2" id="hi">Gender</td>
+                <td class="gender">
+                    <input type="radio" name="gender"value="male"> <label for="male">Male</label>
+                </td>
+            </tr>
+            <tr>
+                <td class="gender"><input type="radio" name="gender"value="female"> <label for="female">Female</label></td>
+            </tr>
+            <tr>
+                <td id="hi">Age</td>
+                <td> </td>
+            </tr>
+            <tr>
+                <td id="hi">Phone Number</td>
+                <td> </td>
+            </tr>
+            <tr style="height:200px">
+                <td id="hi">Address</td>
+                <td >
+                 
+                </td>
+            </tr>
+            <tr>
+                <td id="hi">State</td>
+                <td> </td>
+            </tr>
+            <tr>
+                <td id="hi">Country</td>
+                <td align="left">
+                    <select id="country" >
+                        <option disabled selected>Choose a country</option>
+                        <option value="1">India</option>
+                        <option value="2">Canada</option>
+                        <option value="3">US</option>
+                        <option value="4">Australia</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td id="hi">Languages Known</td>
+                <td>
+                    <input type="checkbox" id="English"><label for="English">English</label>
+                    <input type="checkbox" id="Kannada"><label for="Kannada">Kannada</label>
+                    <input type="checkbox" id="Hindi"><label for="Hindi">Hindi</label>
+                    <input type="checkbox" id="Telugu"><label for="Telugu">Telugu</label>
+                </td>
+            </tr>
+            <tr>
+                <td align="left"colspan="2"><input type="checkbox"><label>Hereby I declare all the given details are true</label></td>
+            </tr>
+           <tr>
+            <td colspan="2" align="right">Log in to <a href="https://ethnus.com/">Ethnus</a> website</td>
+           </tr>
+        </table><br>
+        <input id="random"type="submit" value="Register" >
+    </form>
+</body>
